@@ -1,8 +1,10 @@
 body {
-  background-color: #ccc;
+  /*background-color: #ccc;
   background-image: url("img/fondo.jpg");
-  /*background-repeat: repeat-y;*/
+  background-repeat: repeat-y;
   background-size: 100%;
+  background-attachment: fixed;*/
+  color: black;
 }
 
 #caja {
@@ -10,4 +12,6 @@ body {
   padding: 10px;
   background-color: rgb(81, 109, 235);
   color: white;
+  text-align: center;
+  line-height: 20px;
 }
