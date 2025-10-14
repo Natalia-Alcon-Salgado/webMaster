@@ -23,7 +23,7 @@
   background-color: #eee;
 }
 
-.limpiar{
+.limpiar {
   float: none;
   clear: both;
 }
@@ -47,4 +47,14 @@
 
 #menu ul li:hover a {
   color: white;
+}
+
+#contenido {
+  width: 69%;
+  float: left;
+}
+
+#lateral {
+  width: 30%;
+  float: left;
 }

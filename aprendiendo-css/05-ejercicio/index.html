@@ -2,11 +2,11 @@
 1.(HECHO) Crear un documento HTML y vincularlo con un CSS
 2. (HECHO) Crear una estructura HTML que cuente con un CONTENEDOR GENERAL,CABECERA, MENÚ, BARRA LATERAL, SECCIÓN DE CONTENIDO PRINCIPAL, ELEMENTOS DENTRO DEL CONTENEDOR PRINCIPAL Y FOOTER
 3. (HECHO) Todo el contenido debe estar dentro del contenedor general y su ancho será de 1200px y estar centrado
-4.  (HECHO) Header debe ocupar el 100% del ancho y tener un texto grande centrado.
-5. El menú debe tener los elementos uno al lado del otro.
-6. El contenido principal debe tener un ancho del 70%
+4. (HECHO) Header debe ocupar el 100% del ancho y tener un texto grande centrado.
+5. (HECHO) El menú debe tener los elementos uno al lado del otro.
+6. (HECHO) El contenido principal debe tener un ancho del 70%
 7. El contenido dentro del contenedor principal debe ser una cuadrícula con 4 líneas de 2 cjas
-8. La barra lateral debe tener un ancho del 30%
+8. (HECHO) La barra lateral debe tener un ancho del 30%
 9. El footer debe tener un ancho del 100% del div que lo contiene y estar abajo del todo. -->
 <!DOCTYPE html>
 <html lang="en">
@@ -29,6 +29,7 @@
                 </ul>
                 <div class="limpiar"></div>
             </nav>
+
             <section id="contenido">
                 <div class="caja">
                     <h2>Caja 1</h2>
@@ -55,11 +56,15 @@
                     <h2>Caja 8</h2>
                 </div>
             </section>
-            <sidebar id="lateral">
+
+            <div class="limpiar"></div>
+            <aside id="lateral">
                 <div class="caja">
                     <h2>Elemento de la barra lateral</h2>
                 </div>
-            </sidebar>
+            </aside>
+
+            <div class="limpiar"></div>
             <footer id="footer">Todos los derechos reservados &copy
                 Natalia</footer>
         </div>
