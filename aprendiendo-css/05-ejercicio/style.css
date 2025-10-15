@@ -101,3 +101,39 @@ footer {
   color: #444;
   border-top: 1px solid #ccc;
 }
+
+.libre {
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  border: 1px solid black;
+  background-color: red;
+  color: white;
+  width: 50px;
+  height: 50px;
+  font-size: 13px;
+}
+
+.libre1 {
+  z-index: 2;
+}
+
+.libre2 {
+  background-color: green;
+  top: 280px;
+  left: 52%;
+  z-index: 1;
+}
+
+.fija {
+  position: fixed;
+  top: 50px;
+  left: 0%;
+
+  border: 1px solid black;
+  background-color: blue;
+  color: white;
+  width: 50px;
+  height: 50px;
+  font-size: 13px;
+}
